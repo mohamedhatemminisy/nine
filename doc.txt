@@ -1,0 +1,144 @@
+
+		              ----------------- #api ---------------------
+
+1- sign up  :-   
+
+http://127.0.0.1:8000/api/signup?Fname=mohamed&Lname=minesy&phoneNumber=0112233&password=123&email=hatem@yahoo.com&deviceToken=123321&address=alex
+					       ------------------------------------
+
+ 2- login user 
+
+ http://127.0.0.1:8000/api/login?password=123456&deviceToken=1111&phoneNumber=01020828482
+
+					       ------------------------------------
+
+3 - update profile 
+
+http://127.0.0.1:8000/api/update_profile/1?Fname=hatem&Lname=minesy&address=cairo&phoneNumber=01146625932&deviceToken=123456
+					       ------------------------------------
+
+4 - get user info profile 
+
+http://127.0.0.1:8000/api/user_profile/2?
+
+
+					       ----------------------------------
+
+5 - change password 
+
+http://127.0.0.1:8000/api/change_password
+?user_id=3&old_password=1&password=1
+
+					       ----------------------------------
+
+6 - update device token for single user 
+
+http://127.0.0.1:8000/api/update_device_token/1
+?deviceToken=12221
+
+					       ----------------------------------
+
+7 - add child service
+
+http://127.0.0.1:8000/api/add_child?name=eslam&age=20&gender=femal&parent_id=1
+
+ 
+					       ------------------------------------
+8 - children count service
+
+http://127.0.0.1:8000/api/count_children?parent_id=2
+ 
+					       ------------------------------------
+
+9 - get uer messages
+
+http://127.0.0.1:8000/api/get_messages
+?reciver_id=6 
+					       ------------------------------------
+
+
+10 - get advices service 
+
+http://127.0.0.1:8000/api/get_advices
+
+					       ------------------------------------
+
+11 - get number of views 
+
+http://127.0.0.1:8000/api/view?advice_id=4&user_id=2
+
+					       ------------------------------------
+
+12 - get number of likes 
+
+http://127.0.0.1:8000/api/like?advice_id=4&user_id=2
+
+					       ------------------------------------
+
+13 - get question answers
+
+http://127.0.0.1:8000/api/Qustion_answers?child_id=4&activity_id=2&answer_id=6
+
+					       ------------------------------------
+
+14 - get activities service 
+
+http://127.0.0.1:8000/api/get_activities
+
+					       ------------------------------------
+15 - get activities rate service 
+
+http://127.0.0.1:8000/api/activity_rate
+?parent_id=1
+					       ------------------------------------
+
+16 - update profile 
+
+http://127.0.0.1:8000/api/update_child_profile/1?Fname=hatem&Lname=minesy&address=cairo&phoneNumber=01146625932&deviceToken=123456
+
+					       ------------------------------------
+
+17 - get number of views 
+
+http://127.0.0.1:8000/api/share?advice_id=3&user_id=1
+					       ------------------------------------
+
+
+18 - get evaluation question service 
+
+http://127.0.0.1:8000/api/get_evaluation_questions
+
+					       ------------------------------------
+
+19 - get child answers for evaluation service
+
+http://127.0.0.1:8000/api/Qustion_answers
+?child_id=6&question_id=3&answer_id=4
+					       ------------------------------------
+
+
+20 - get evalutation rate 
+
+http://127.0.0.1:8000/api/evaluation_rate?parent_id=1
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				       
+
+ about servic 
+
+ 
+http://127.0.0.1:8000/api/about
+
+
+
+
+
+					       6 - forget password
+
+http://127.0.0.1:8000/api/forget_password?Email=admin@tatweer.com 
+
+not compeleted
+					       ----------------------------------
